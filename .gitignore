@@ -20,3 +20,5 @@ __pycache__/
 *.png
 *.jpg
 *.wav
+!screenshots/
+!screenshots/*.png

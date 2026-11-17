@@ -11,6 +11,15 @@ This repository provides:
 To play it you need a Super A'Can emulator: the [Super A'Can Emulator](https://github.com/ACR-GD/superacan-emulator)
 (macOS app, Windows, Linux, and a RetroArch core for desktop and Android) or MAME.
 
+### Screenshots
+
+<p>
+<img src="screenshots/1.png" width="400" alt="Title menu: Start, Continue, Options">
+<img src="screenshots/2.png" width="400" alt="Hero naming screen with dialogue">
+<img src="screenshots/3.png" width="400" alt="World map: Santa Cruz Town">
+<img src="screenshots/4.png" width="400" alt="Options dialogue">
+</p>
+
 ---
 
 ### Release Files
