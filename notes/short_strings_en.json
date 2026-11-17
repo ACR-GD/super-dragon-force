@@ -1,0 +1,4490 @@
+[
+  {
+    "id": 1,
+    "hex_id": "0x001",
+    "zh": "法力不足",
+    "en": "Not enough MP!"
+  },
+  {
+    "id": 2,
+    "hex_id": "0x002",
+    "zh": "咒文封印",
+    "en": "Spell sealed!"
+  },
+  {
+    "id": 3,
+    "hex_id": "0x003",
+    "zh": "無施咒能力",
+    "en": "No spell power!"
+  },
+  {
+    "id": 4,
+    "hex_id": "0x004",
+    "zh": "，",
+    "en": ", "
+  },
+  {
+    "id": 5,
+    "hex_id": "0x005",
+    "zh": "請選擇主角性別？",
+    "en": "Select hero gender:"
+  },
+  {
+    "id": 6,
+    "hex_id": "0x006",
+    "zh": "男性",
+    "en": "Male"
+  },
+  {
+    "id": 7,
+    "hex_id": "0x007",
+    "zh": "女性",
+    "en": "Female"
+  },
+  {
+    "id": 8,
+    "hex_id": "0x008",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 9,
+    "hex_id": "0x009",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 10,
+    "hex_id": "0x00a",
+    "zh": "障礙",
+    "en": "Obst"
+  },
+  {
+    "id": 11,
+    "hex_id": "0x00b",
+    "zh": "海洋",
+    "en": "Ocn"
+  },
+  {
+    "id": 12,
+    "hex_id": "0x00c",
+    "zh": "森林",
+    "en": "Frst"
+  },
+  {
+    "id": 13,
+    "hex_id": "0x00d",
+    "zh": "不詳",
+    "en": "Unkn"
+  },
+  {
+    "id": 14,
+    "hex_id": "0x00e",
+    "zh": "道路",
+    "en": "Road"
+  },
+  {
+    "id": 15,
+    "hex_id": "0x00f",
+    "zh": "建築",
+    "en": "Bldg"
+  },
+  {
+    "id": 16,
+    "hex_id": "0x010",
+    "zh": "山丘",
+    "en": "Hill"
+  },
+  {
+    "id": 17,
+    "hex_id": "0x011",
+    "zh": "不詳",
+    "en": "Unkn"
+  },
+  {
+    "id": 18,
+    "hex_id": "0x012",
+    "zh": "山脈",
+    "en": "Mtns"
+  },
+  {
+    "id": 19,
+    "hex_id": "0x013",
+    "zh": "河流",
+    "en": "Rivr"
+  },
+  {
+    "id": 20,
+    "hex_id": "0x014",
+    "zh": "草地",
+    "en": "Gras"
+  },
+  {
+    "id": 21,
+    "hex_id": "0x015",
+    "zh": "天空",
+    "en": "Sky"
+  },
+  {
+    "id": 22,
+    "hex_id": "0x016",
+    "zh": "不詳",
+    "en": "Unkn"
+  },
+  {
+    "id": 23,
+    "hex_id": "0x017",
+    "zh": "不詳",
+    "en": "Unkn"
+  },
+  {
+    "id": 24,
+    "hex_id": "0x018",
+    "zh": "沙地",
+    "en": "Sand"
+  },
+  {
+    "id": 25,
+    "hex_id": "0x019",
+    "zh": "淺灘",
+    "en": "Shlw"
+  },
+  {
+    "id": 26,
+    "hex_id": "0x01a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 27,
+    "hex_id": "0x01b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 28,
+    "hex_id": "0x01c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 29,
+    "hex_id": "0x01d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 30,
+    "hex_id": "0x01e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 31,
+    "hex_id": "0x01f",
+    "zh": "聖克魯茲城",
+    "en": "Santa Cruz Castle"
+  },
+  {
+    "id": 32,
+    "hex_id": "0x020",
+    "zh": "聖克魯茲鎮",
+    "en": "Santa Cruz Town"
+  },
+  {
+    "id": 33,
+    "hex_id": "0x021",
+    "zh": "聖克魯茲城～古代神殿",
+    "en": "Castle - Shrine"
+  },
+  {
+    "id": 34,
+    "hex_id": "0x022",
+    "zh": "古代神殿",
+    "en": "Ancient Shrine"
+  },
+  {
+    "id": 35,
+    "hex_id": "0x023",
+    "zh": "修行的瀑布",
+    "en": "Training Falls"
+  },
+  {
+    "id": 36,
+    "hex_id": "0x024",
+    "zh": "聖克魯茲城～馬蘭村",
+    "en": "Castle - Maran"
+  },
+  {
+    "id": 37,
+    "hex_id": "0x025",
+    "zh": "馬蘭村",
+    "en": "Maran Village"
+  },
+  {
+    "id": 38,
+    "hex_id": "0x026",
+    "zh": "巴魯薩城",
+    "en": "Barusa Castle"
+  },
+  {
+    "id": 39,
+    "hex_id": "0x027",
+    "zh": "巴魯薩城～丹托鎮",
+    "en": "Barusa - Danto"
+  },
+  {
+    "id": 40,
+    "hex_id": "0x028",
+    "zh": "丹托鎮",
+    "en": "Danto Town"
+  },
+  {
+    "id": 41,
+    "hex_id": "0x029",
+    "zh": "丹托鎮的地下洞穴",
+    "en": "Danto Cave"
+  },
+  {
+    "id": 42,
+    "hex_id": "0x02a",
+    "zh": "魔軍的營地",
+    "en": "Fiend Army Camp"
+  },
+  {
+    "id": 43,
+    "hex_id": "0x02b",
+    "zh": "皇家大聖堂",
+    "en": "Royal Cathedral"
+  },
+  {
+    "id": 44,
+    "hex_id": "0x02c",
+    "zh": "艾隆鎮",
+    "en": "Iron Town"
+  },
+  {
+    "id": 45,
+    "hex_id": "0x02d",
+    "zh": "艾隆鎮的礦場",
+    "en": "Iron Town Mine"
+  },
+  {
+    "id": 46,
+    "hex_id": "0x02e",
+    "zh": "帕米歐斯平原",
+    "en": "Pamius Plains"
+  },
+  {
+    "id": 47,
+    "hex_id": "0x02f",
+    "zh": "斷魂橋　",
+    "en": "Bridge of Souls"
+  },
+  {
+    "id": 48,
+    "hex_id": "0x030",
+    "zh": "吉普賽人的營地",
+    "en": "Gypsy Camp"
+  },
+  {
+    "id": 49,
+    "hex_id": "0x031",
+    "zh": "巴斯克高地",
+    "en": "Basque Highlands"
+  },
+  {
+    "id": 50,
+    "hex_id": "0x032",
+    "zh": "吉普賽的小村莊",
+    "en": "Gypsy Village"
+  },
+  {
+    "id": 51,
+    "hex_id": "0x033",
+    "zh": "妖魔要塞",
+    "en": "Demon Fortress"
+  },
+  {
+    "id": 52,
+    "hex_id": "0x034",
+    "zh": "要塞的秘密港口",
+    "en": "Secret Port"
+  },
+  {
+    "id": 53,
+    "hex_id": "0x035",
+    "zh": "港口～華特爾城",
+    "en": "Port - Water"
+  },
+  {
+    "id": 54,
+    "hex_id": "0x036",
+    "zh": "華特爾城",
+    "en": "Water Castle"
+  },
+  {
+    "id": 55,
+    "hex_id": "0x037",
+    "zh": "海底神殿",
+    "en": "Sunken Shrine"
+  },
+  {
+    "id": 56,
+    "hex_id": "0x038",
+    "zh": "華特爾城～多拉肯村",
+    "en": "Water - Draken"
+  },
+  {
+    "id": 57,
+    "hex_id": "0x039",
+    "zh": "多拉肯村",
+    "en": "Draken Village"
+  },
+  {
+    "id": 58,
+    "hex_id": "0x03a",
+    "zh": "多拉肯村～龍穴",
+    "en": "Draken - Dragon Den"
+  },
+  {
+    "id": 59,
+    "hex_id": "0x03b",
+    "zh": "龍穴",
+    "en": "Dragon Den"
+  },
+  {
+    "id": 60,
+    "hex_id": "0x03c",
+    "zh": "多拉肯村～巴魯庫斯堡",
+    "en": "Draken - Barukus"
+  },
+  {
+    "id": 61,
+    "hex_id": "0x03d",
+    "zh": "巴魯庫斯堡",
+    "en": "Barukus Keep"
+  },
+  {
+    "id": 62,
+    "hex_id": "0x03e",
+    "zh": "安遜城",
+    "en": "Anson City"
+  },
+  {
+    "id": 63,
+    "hex_id": "0x03f",
+    "zh": "安遜城～古代之塔",
+    "en": "Anson - Tower"
+  },
+  {
+    "id": 64,
+    "hex_id": "0x040",
+    "zh": "古代之塔",
+    "en": "Ancient Tower"
+  },
+  {
+    "id": 65,
+    "hex_id": "0x041",
+    "zh": "古代人的秘境",
+    "en": "Ancient Sanctuary"
+  },
+  {
+    "id": 66,
+    "hex_id": "0x042",
+    "zh": "安遜城～遺忘之城",
+    "en": "Anson - Ruin City"
+  },
+  {
+    "id": 67,
+    "hex_id": "0x043",
+    "zh": "遺忘之城",
+    "en": "Forgotten City"
+  },
+  {
+    "id": 68,
+    "hex_id": "0x044",
+    "zh": "魔法師的巢穴",
+    "en": "Mages Lair 1F"
+  },
+  {
+    "id": 69,
+    "hex_id": "0x045",
+    "zh": "魔法師的巢穴二樓",
+    "en": "Mages Lair 2F"
+  },
+  {
+    "id": 70,
+    "hex_id": "0x046",
+    "zh": "浮游要塞",
+    "en": "Floating Keep 1F"
+  },
+  {
+    "id": 71,
+    "hex_id": "0x047",
+    "zh": "浮游要塞二樓",
+    "en": "Floating Keep 2F"
+  },
+  {
+    "id": 72,
+    "hex_id": "0x048",
+    "zh": "浮游要塞三樓",
+    "en": "Floating Keep 3F"
+  },
+  {
+    "id": 73,
+    "hex_id": "0x049",
+    "zh": "戰鬥的馬蘭村",
+    "en": "Maran Battlefield"
+  },
+  {
+    "id": 74,
+    "hex_id": "0x04a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 75,
+    "hex_id": "0x04b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 76,
+    "hex_id": "0x04c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 77,
+    "hex_id": "0x04d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 78,
+    "hex_id": "0x04e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 79,
+    "hex_id": "0x04f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 80,
+    "hex_id": "0x050",
+    "zh": "主角",
+    "en": "Arthur"
+  },
+  {
+    "id": 81,
+    "hex_id": "0x051",
+    "zh": "主角",
+    "en": "Sophia"
+  },
+  {
+    "id": 82,
+    "hex_id": "0x052",
+    "zh": "凱伊",
+    "en": "Kai"
+  },
+  {
+    "id": 83,
+    "hex_id": "0x053",
+    "zh": "妮娜",
+    "en": "Nina"
+  },
+  {
+    "id": 84,
+    "hex_id": "0x054",
+    "zh": "羅伊",
+    "en": "Roy"
+  },
+  {
+    "id": 85,
+    "hex_id": "0x055",
+    "zh": "琪琪",
+    "en": "Kiki"
+  },
+  {
+    "id": 86,
+    "hex_id": "0x056",
+    "zh": "拜倫",
+    "en": "Byron"
+  },
+  {
+    "id": 87,
+    "hex_id": "0x057",
+    "zh": "索菲亞",
+    "en": "Sophia"
+  },
+  {
+    "id": 88,
+    "hex_id": "0x058",
+    "zh": "艾魯",
+    "en": "Eru"
+  },
+  {
+    "id": 89,
+    "hex_id": "0x059",
+    "zh": "娜塔夏",
+    "en": "Natasha"
+  },
+  {
+    "id": 90,
+    "hex_id": "0x05a",
+    "zh": "虎",
+    "en": "Tora"
+  },
+  {
+    "id": 91,
+    "hex_id": "0x05b",
+    "zh": "珍",
+    "en": "Jane"
+  },
+  {
+    "id": 92,
+    "hex_id": "0x05c",
+    "zh": "吉斯",
+    "en": "Keith"
+  },
+  {
+    "id": 93,
+    "hex_id": "0x05d",
+    "zh": "法蘭西斯",
+    "en": "Francis"
+  },
+  {
+    "id": 94,
+    "hex_id": "0x05e",
+    "zh": "甘達特",
+    "en": "Gandat"
+  },
+  {
+    "id": 95,
+    "hex_id": "0x05f",
+    "zh": "伊芙",
+    "en": "Eve"
+  },
+  {
+    "id": 96,
+    "hex_id": "0x060",
+    "zh": "雷蒙",
+    "en": "Raymond"
+  },
+  {
+    "id": 97,
+    "hex_id": "0x061",
+    "zh": "凱莉",
+    "en": "Kelly"
+  },
+  {
+    "id": 98,
+    "hex_id": "0x062",
+    "zh": "卡森",
+    "en": "Carson"
+  },
+  {
+    "id": 99,
+    "hex_id": "0x063",
+    "zh": "蕾娜",
+    "en": "Lena"
+  },
+  {
+    "id": 100,
+    "hex_id": "0x064",
+    "zh": "多爾卡",
+    "en": "Doruka"
+  },
+  {
+    "id": 101,
+    "hex_id": "0x065",
+    "zh": "涼子",
+    "en": "Ryoko"
+  },
+  {
+    "id": 102,
+    "hex_id": "0x066",
+    "zh": "卡拉哈德",
+    "en": "Galahad"
+  },
+  {
+    "id": 103,
+    "hex_id": "0x067",
+    "zh": "耐特",
+    "en": "Knight"
+  },
+  {
+    "id": 104,
+    "hex_id": "0x068",
+    "zh": "史拉米",
+    "en": "Slime"
+  },
+  {
+    "id": 105,
+    "hex_id": "0x069",
+    "zh": "巴薩卡",
+    "en": "Berserker"
+  },
+  {
+    "id": 106,
+    "hex_id": "0x06a",
+    "zh": "巨魔",
+    "en": "Troll"
+  },
+  {
+    "id": 107,
+    "hex_id": "0x06b",
+    "zh": "流浪的甲冑",
+    "en": "RovingArmr"
+  },
+  {
+    "id": 108,
+    "hex_id": "0x06c",
+    "zh": "蠍子蜂",
+    "en": "ScorpWasp"
+  },
+  {
+    "id": 109,
+    "hex_id": "0x06d",
+    "zh": "惡魔獵人",
+    "en": "DemonHuntr"
+  },
+  {
+    "id": 110,
+    "hex_id": "0x06e",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 111,
+    "hex_id": "0x06f",
+    "zh": "木乃伊",
+    "en": "Mummy"
+  },
+  {
+    "id": 112,
+    "hex_id": "0x070",
+    "zh": "泥偶",
+    "en": "Mud Golem"
+  },
+  {
+    "id": 113,
+    "hex_id": "0x071",
+    "zh": "藍色人偶",
+    "en": "Blue Doll"
+  },
+  {
+    "id": 114,
+    "hex_id": "0x072",
+    "zh": "小惡魔",
+    "en": "Imp"
+  },
+  {
+    "id": 115,
+    "hex_id": "0x073",
+    "zh": "邪惡傀儡師",
+    "en": "Puppeteer"
+  },
+  {
+    "id": 116,
+    "hex_id": "0x074",
+    "zh": "不死人",
+    "en": "Undead"
+  },
+  {
+    "id": 117,
+    "hex_id": "0x075",
+    "zh": "瑪米",
+    "en": "Mummy"
+  },
+  {
+    "id": 118,
+    "hex_id": "0x076",
+    "zh": "妖魔弓箭手",
+    "en": "DemonArchr"
+  },
+  {
+    "id": 119,
+    "hex_id": "0x077",
+    "zh": "地獄使者",
+    "en": "Hell Envoy"
+  },
+  {
+    "id": 120,
+    "hex_id": "0x078",
+    "zh": "殺人鬼",
+    "en": "Slayer"
+  },
+  {
+    "id": 121,
+    "hex_id": "0x079",
+    "zh": "大法師",
+    "en": "Archmage"
+  },
+  {
+    "id": 122,
+    "hex_id": "0x07a",
+    "zh": "死神",
+    "en": "Reaper"
+  },
+  {
+    "id": 123,
+    "hex_id": "0x07b",
+    "zh": "地獄甲冑",
+    "en": "Hell Armor"
+  },
+  {
+    "id": 124,
+    "hex_id": "0x07c",
+    "zh": "梅杜莎",
+    "en": "Medusa"
+  },
+  {
+    "id": 125,
+    "hex_id": "0x07d",
+    "zh": "生化獸",
+    "en": "Bio-Beast"
+  },
+  {
+    "id": 126,
+    "hex_id": "0x07e",
+    "zh": "壞卡拉哈德",
+    "en": "EvlGalahad"
+  },
+  {
+    "id": 127,
+    "hex_id": "0x07f",
+    "zh": "地獄魔犬",
+    "en": "Hell Hound"
+  },
+  {
+    "id": 128,
+    "hex_id": "0x080",
+    "zh": "獵人蜂",
+    "en": "HunterWasp"
+  },
+  {
+    "id": 129,
+    "hex_id": "0x081",
+    "zh": "卡姬",
+    "en": "Kaji"
+  },
+  {
+    "id": 130,
+    "hex_id": "0x082",
+    "zh": "章魚王",
+    "en": "Octo King"
+  },
+  {
+    "id": 131,
+    "hex_id": "0x083",
+    "zh": "大章怪",
+    "en": "Kraken"
+  },
+  {
+    "id": 132,
+    "hex_id": "0x084",
+    "zh": "大蜈蚣",
+    "en": "Centipede"
+  },
+  {
+    "id": 133,
+    "hex_id": "0x085",
+    "zh": "魔鳥",
+    "en": "Fiend Bird"
+  },
+  {
+    "id": 134,
+    "hex_id": "0x086",
+    "zh": "溶岩魔人",
+    "en": "Lava Golem"
+  },
+  {
+    "id": 135,
+    "hex_id": "0x087",
+    "zh": "惡魔神官",
+    "en": "DemonPrst"
+  },
+  {
+    "id": 136,
+    "hex_id": "0x088",
+    "zh": "石像魔",
+    "en": "Gargoyle"
+  },
+  {
+    "id": 137,
+    "hex_id": "0x089",
+    "zh": "凱茵",
+    "en": "Kain"
+  },
+  {
+    "id": 138,
+    "hex_id": "0x08a",
+    "zh": "極樂鳥",
+    "en": "Parad.Bird"
+  },
+  {
+    "id": 139,
+    "hex_id": "0x08b",
+    "zh": "妖靈暗殺者",
+    "en": "GhostAssn."
+  },
+  {
+    "id": 140,
+    "hex_id": "0x08c",
+    "zh": "美拉夏麗",
+    "en": "Melashari"
+  },
+  {
+    "id": 141,
+    "hex_id": "0x08d",
+    "zh": "飛龍",
+    "en": "Wyvern"
+  },
+  {
+    "id": 142,
+    "hex_id": "0x08e",
+    "zh": "眼魔",
+    "en": "Evil Eye"
+  },
+  {
+    "id": 143,
+    "hex_id": "0x08f",
+    "zh": "金屬獵人",
+    "en": "MetalHuntr"
+  },
+  {
+    "id": 144,
+    "hex_id": "0x090",
+    "zh": "獨角獸人",
+    "en": "UnicornMan"
+  },
+  {
+    "id": 145,
+    "hex_id": "0x091",
+    "zh": "火燄蜈蚣",
+    "en": "FlameCntpd"
+  },
+  {
+    "id": 146,
+    "hex_id": "0x092",
+    "zh": "殺人機械",
+    "en": "KillMachin"
+  },
+  {
+    "id": 147,
+    "hex_id": "0x093",
+    "zh": "惡魔法師",
+    "en": "Demon Mage"
+  },
+  {
+    "id": 148,
+    "hex_id": "0x094",
+    "zh": "麗歐斯萍",
+    "en": "Riospin"
+  },
+  {
+    "id": 149,
+    "hex_id": "0x095",
+    "zh": "鬼影狙擊手",
+    "en": "PhntmSnipr"
+  },
+  {
+    "id": 150,
+    "hex_id": "0x096",
+    "zh": "火燄惡魔犬",
+    "en": "FireFndHnd"
+  },
+  {
+    "id": 151,
+    "hex_id": "0x097",
+    "zh": "骷髏戰士",
+    "en": "SkeletonWr"
+  },
+  {
+    "id": 152,
+    "hex_id": "0x098",
+    "zh": "三頭獸",
+    "en": "Chimera"
+  },
+  {
+    "id": 153,
+    "hex_id": "0x099",
+    "zh": "五頭魔龍",
+    "en": "5-HeadDrgn"
+  },
+  {
+    "id": 154,
+    "hex_id": "0x09a",
+    "zh": "席爾福克斯",
+    "en": "Sil Fox"
+  },
+  {
+    "id": 155,
+    "hex_id": "0x09b",
+    "zh": "煙魔",
+    "en": "SmokeDemon"
+  },
+  {
+    "id": 156,
+    "hex_id": "0x09c",
+    "zh": "壞多爾卡",
+    "en": "EvlDoruka"
+  },
+  {
+    "id": 157,
+    "hex_id": "0x09d",
+    "zh": "維多利亞",
+    "en": "Victoria"
+  },
+  {
+    "id": 158,
+    "hex_id": "0x09e",
+    "zh": "洛馬",
+    "en": "Loma"
+  },
+  {
+    "id": 159,
+    "hex_id": "0x09f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 160,
+    "hex_id": "0x0a0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 161,
+    "hex_id": "0x0a1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 162,
+    "hex_id": "0x0a2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 163,
+    "hex_id": "0x0a3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 164,
+    "hex_id": "0x0a4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 165,
+    "hex_id": "0x0a5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 166,
+    "hex_id": "0x0a6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 167,
+    "hex_id": "0x0a7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 168,
+    "hex_id": "0x0a8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 169,
+    "hex_id": "0x0a9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 170,
+    "hex_id": "0x0aa",
+    "zh": "勇　者",
+    "en": "Hero"
+  },
+  {
+    "id": 171,
+    "hex_id": "0x0ab",
+    "zh": "勇　者",
+    "en": "Hero"
+  },
+  {
+    "id": 172,
+    "hex_id": "0x0ac",
+    "zh": "戰　士",
+    "en": "Warrr"
+  },
+  {
+    "id": 173,
+    "hex_id": "0x0ad",
+    "zh": "戰　士",
+    "en": "Warrr"
+  },
+  {
+    "id": 174,
+    "hex_id": "0x0ae",
+    "zh": "僧　侶",
+    "en": "Cleric"
+  },
+  {
+    "id": 175,
+    "hex_id": "0x0af",
+    "zh": "僧　侶",
+    "en": "Cleric"
+  },
+  {
+    "id": 176,
+    "hex_id": "0x0b0",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 177,
+    "hex_id": "0x0b1",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 178,
+    "hex_id": "0x0b2",
+    "zh": "腎　者",
+    "en": "Sage"
+  },
+  {
+    "id": 179,
+    "hex_id": "0x0b3",
+    "zh": "腎　者",
+    "en": "Sage"
+  },
+  {
+    "id": 180,
+    "hex_id": "0x0b4",
+    "zh": "武鬥家",
+    "en": "Monk"
+  },
+  {
+    "id": 181,
+    "hex_id": "0x0b5",
+    "zh": "武鬥家",
+    "en": "Monk"
+  },
+  {
+    "id": 182,
+    "hex_id": "0x0b6",
+    "zh": "獵　人",
+    "en": "Hunter"
+  },
+  {
+    "id": 183,
+    "hex_id": "0x0b7",
+    "zh": "獵　人",
+    "en": "Hunter"
+  },
+  {
+    "id": 184,
+    "hex_id": "0x0b8",
+    "zh": "盜　賊",
+    "en": "Thief"
+  },
+  {
+    "id": 185,
+    "hex_id": "0x0b9",
+    "zh": "盜　賊",
+    "en": "Thief"
+  },
+  {
+    "id": 186,
+    "hex_id": "0x0ba",
+    "zh": "傭　兵",
+    "en": "Merc."
+  },
+  {
+    "id": 187,
+    "hex_id": "0x0bb",
+    "zh": "傭　兵",
+    "en": "Merc."
+  },
+  {
+    "id": 188,
+    "hex_id": "0x0bc",
+    "zh": "狂戰士",
+    "en": "Berskr"
+  },
+  {
+    "id": 189,
+    "hex_id": "0x0bd",
+    "zh": "精　靈",
+    "en": "Elf"
+  },
+  {
+    "id": 190,
+    "hex_id": "0x0be",
+    "zh": "矮　人",
+    "en": "Dwarf"
+  },
+  {
+    "id": 191,
+    "hex_id": "0x0bf",
+    "zh": "忍　者",
+    "en": "Ninja"
+  },
+  {
+    "id": 192,
+    "hex_id": "0x0c0",
+    "zh": "魔劍士",
+    "en": "SpBlde"
+  },
+  {
+    "id": 193,
+    "hex_id": "0x0c1",
+    "zh": "騎　士",
+    "en": "Knight"
+  },
+  {
+    "id": 194,
+    "hex_id": "0x0c2",
+    "zh": "史萊姆",
+    "en": "Slime"
+  },
+  {
+    "id": 195,
+    "hex_id": "0x0c3",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 196,
+    "hex_id": "0x0c4",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 197,
+    "hex_id": "0x0c5",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 198,
+    "hex_id": "0x0c6",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 199,
+    "hex_id": "0x0c7",
+    "zh": "弓箭手",
+    "en": "Archer"
+  },
+  {
+    "id": 200,
+    "hex_id": "0x0c8",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 201,
+    "hex_id": "0x0c9",
+    "zh": "不死族",
+    "en": "Undead"
+  },
+  {
+    "id": 202,
+    "hex_id": "0x0ca",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 203,
+    "hex_id": "0x0cb",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 204,
+    "hex_id": "0x0cc",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 205,
+    "hex_id": "0x0cd",
+    "zh": "魔　人",
+    "en": "Fiend"
+  },
+  {
+    "id": 206,
+    "hex_id": "0x0ce",
+    "zh": "不死族",
+    "en": "Undead"
+  },
+  {
+    "id": 207,
+    "hex_id": "0x0cf",
+    "zh": "不死族",
+    "en": "Undead"
+  },
+  {
+    "id": 208,
+    "hex_id": "0x0d0",
+    "zh": "弓箭手",
+    "en": "Archer"
+  },
+  {
+    "id": 209,
+    "hex_id": "0x0d1",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 210,
+    "hex_id": "0x0d2",
+    "zh": "魔　人",
+    "en": "Fiend"
+  },
+  {
+    "id": 211,
+    "hex_id": "0x0d3",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 212,
+    "hex_id": "0x0d4",
+    "zh": "不死族",
+    "en": "Undead"
+  },
+  {
+    "id": 213,
+    "hex_id": "0x0d5",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 214,
+    "hex_id": "0x0d6",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 215,
+    "hex_id": "0x0d7",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 216,
+    "hex_id": "0x0d8",
+    "zh": "魔劍士",
+    "en": "SpBlde"
+  },
+  {
+    "id": 217,
+    "hex_id": "0x0d9",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 218,
+    "hex_id": "0x0da",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 219,
+    "hex_id": "0x0db",
+    "zh": "妖劍士",
+    "en": "DmnKnt"
+  },
+  {
+    "id": 220,
+    "hex_id": "0x0dc",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 221,
+    "hex_id": "0x0dd",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 222,
+    "hex_id": "0x0de",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 223,
+    "hex_id": "0x0df",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 224,
+    "hex_id": "0x0e0",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 225,
+    "hex_id": "0x0e1",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 226,
+    "hex_id": "0x0e2",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 227,
+    "hex_id": "0x0e3",
+    "zh": "邪劍士",
+    "en": "DrkKnt"
+  },
+  {
+    "id": 228,
+    "hex_id": "0x0e4",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 229,
+    "hex_id": "0x0e5",
+    "zh": "弓箭手",
+    "en": "Archer"
+  },
+  {
+    "id": 230,
+    "hex_id": "0x0e6",
+    "zh": "女弟子",
+    "en": "Apprnt"
+  },
+  {
+    "id": 231,
+    "hex_id": "0x0e7",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 232,
+    "hex_id": "0x0e8",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 233,
+    "hex_id": "0x0e9",
+    "zh": "機械族",
+    "en": "Mach."
+  },
+  {
+    "id": 234,
+    "hex_id": "0x0ea",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 235,
+    "hex_id": "0x0eb",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 236,
+    "hex_id": "0x0ec",
+    "zh": "機械族",
+    "en": "Mach."
+  },
+  {
+    "id": 237,
+    "hex_id": "0x0ed",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 238,
+    "hex_id": "0x0ee",
+    "zh": "女弟子",
+    "en": "Apprnt"
+  },
+  {
+    "id": 239,
+    "hex_id": "0x0ef",
+    "zh": "弓箭手",
+    "en": "Archer"
+  },
+  {
+    "id": 240,
+    "hex_id": "0x0f0",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 241,
+    "hex_id": "0x0f1",
+    "zh": "不死族",
+    "en": "Undead"
+  },
+  {
+    "id": 242,
+    "hex_id": "0x0f2",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 243,
+    "hex_id": "0x0f3",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 244,
+    "hex_id": "0x0f4",
+    "zh": "魔法師",
+    "en": "Mage"
+  },
+  {
+    "id": 245,
+    "hex_id": "0x0f5",
+    "zh": "無生物",
+    "en": "Inorg."
+  },
+  {
+    "id": 246,
+    "hex_id": "0x0f6",
+    "zh": "妖　魔",
+    "en": "Demon"
+  },
+  {
+    "id": 247,
+    "hex_id": "0x0f7",
+    "zh": "女弟子",
+    "en": "Apprnt"
+  },
+  {
+    "id": 248,
+    "hex_id": "0x0f8",
+    "zh": "大魔王",
+    "en": "ArchDm"
+  },
+  {
+    "id": 249,
+    "hex_id": "0x0f9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 250,
+    "hex_id": "0x0fa",
+    "zh": "睡",
+    "en": "Slp"
+  },
+  {
+    "id": 251,
+    "hex_id": "0x0fb",
+    "zh": "印",
+    "en": "Sea"
+  },
+  {
+    "id": 252,
+    "hex_id": "0x0fc",
+    "zh": "麻",
+    "en": "Stn"
+  },
+  {
+    "id": 253,
+    "hex_id": "0x0fd",
+    "zh": "毒",
+    "en": "Psn"
+  },
+  {
+    "id": 254,
+    "hex_id": "0x0fe",
+    "zh": "石",
+    "en": "Pet"
+  },
+  {
+    "id": 255,
+    "hex_id": "0x0ff",
+    "zh": "生",
+    "en": "HP"
+  },
+  {
+    "id": 256,
+    "hex_id": "0x100",
+    "zh": "攻",
+    "en": "ATK"
+  },
+  {
+    "id": 257,
+    "hex_id": "0x101",
+    "zh": "咒",
+    "en": "MP"
+  },
+  {
+    "id": 258,
+    "hex_id": "0x102",
+    "zh": "防",
+    "en": "DEF"
+  },
+  {
+    "id": 259,
+    "hex_id": "0x103",
+    "zh": "經",
+    "en": "EXP"
+  },
+  {
+    "id": 260,
+    "hex_id": "0x104",
+    "zh": "敏",
+    "en": "AGI"
+  },
+  {
+    "id": 261,
+    "hex_id": "0x105",
+    "zh": "移",
+    "en": "MOV"
+  },
+  {
+    "id": 262,
+    "hex_id": "0x106",
+    "zh": "武器",
+    "en": "Weapon"
+  },
+  {
+    "id": 263,
+    "hex_id": "0x107",
+    "zh": "物品",
+    "en": "Item"
+  },
+  {
+    "id": 264,
+    "hex_id": "0x108",
+    "zh": "咒文",
+    "en": "Spell"
+  },
+  {
+    "id": 265,
+    "hex_id": "0x109",
+    "zh": "痲痺",
+    "en": "Paralyze"
+  },
+  {
+    "id": 266,
+    "hex_id": "0x10a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 267,
+    "hex_id": "0x10b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 268,
+    "hex_id": "0x10c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 269,
+    "hex_id": "0x10d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 270,
+    "hex_id": "0x10e",
+    "zh": "無",
+    "en": "None"
+  },
+  {
+    "id": 271,
+    "hex_id": "0x10f",
+    "zh": "攻擊",
+    "en": "Attack"
+  },
+  {
+    "id": 272,
+    "hex_id": "0x110",
+    "zh": "咒文",
+    "en": "Spell"
+  },
+  {
+    "id": 273,
+    "hex_id": "0x111",
+    "zh": "物品",
+    "en": "Item"
+  },
+  {
+    "id": 274,
+    "hex_id": "0x112",
+    "zh": "休息",
+    "en": "Rest"
+  },
+  {
+    "id": 275,
+    "hex_id": "0x113",
+    "zh": "使用",
+    "en": "Use"
+  },
+  {
+    "id": 276,
+    "hex_id": "0x114",
+    "zh": "說明",
+    "en": "Info"
+  },
+  {
+    "id": 277,
+    "hex_id": "0x115",
+    "zh": "丟棄",
+    "en": "Drop"
+  },
+  {
+    "id": 278,
+    "hex_id": "0x116",
+    "zh": "移交",
+    "en": "Give"
+  },
+  {
+    "id": 279,
+    "hex_id": "0x117",
+    "zh": "法力一級",
+    "en": "MP 1"
+  },
+  {
+    "id": 280,
+    "hex_id": "0x118",
+    "zh": "法力二級",
+    "en": "MP 2"
+  },
+  {
+    "id": 281,
+    "hex_id": "0x119",
+    "zh": "法力三級",
+    "en": "MP 3"
+  },
+  {
+    "id": 282,
+    "hex_id": "0x11a",
+    "zh": "法力四級",
+    "en": "MP 4"
+  },
+  {
+    "id": 283,
+    "hex_id": "0x11b",
+    "zh": "防禦",
+    "en": "Defend"
+  },
+  {
+    "id": 284,
+    "hex_id": "0x11c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 285,
+    "hex_id": "0x11d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 286,
+    "hex_id": "0x11e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 287,
+    "hex_id": "0x11f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 288,
+    "hex_id": "0x120",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 289,
+    "hex_id": "0x121",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 290,
+    "hex_id": "0x122",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 291,
+    "hex_id": "0x123",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 292,
+    "hex_id": "0x124",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 293,
+    "hex_id": "0x125",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 294,
+    "hex_id": "0x126",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 295,
+    "hex_id": "0x127",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 296,
+    "hex_id": "0x128",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 297,
+    "hex_id": "0x129",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 298,
+    "hex_id": "0x12a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 299,
+    "hex_id": "0x12b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 300,
+    "hex_id": "0x12c",
+    "zh": "無",
+    "en": "None"
+  },
+  {
+    "id": 301,
+    "hex_id": "0x12d",
+    "zh": "木棒",
+    "en": "Club"
+  },
+  {
+    "id": 302,
+    "hex_id": "0x12e",
+    "zh": "檜木棒",
+    "en": "Cyp.Club"
+  },
+  {
+    "id": 303,
+    "hex_id": "0x12f",
+    "zh": "魔導之杖",
+    "en": "MageWand"
+  },
+  {
+    "id": 304,
+    "hex_id": "0x130",
+    "zh": "理力之杖",
+    "en": "ForceStf"
+  },
+  {
+    "id": 305,
+    "hex_id": "0x131",
+    "zh": "閃電杖",
+    "en": "Bolt Stf"
+  },
+  {
+    "id": 306,
+    "hex_id": "0x132",
+    "zh": "龍之杖",
+    "en": "DragnStf"
+  },
+  {
+    "id": 307,
+    "hex_id": "0x133",
+    "zh": "小斧頭",
+    "en": "Hand Axe"
+  },
+  {
+    "id": 308,
+    "hex_id": "0x134",
+    "zh": "石斧",
+    "en": "StoneAxe"
+  },
+  {
+    "id": 309,
+    "hex_id": "0x135",
+    "zh": "鐵斧",
+    "en": "Iron Axe"
+  },
+  {
+    "id": 310,
+    "hex_id": "0x136",
+    "zh": "戰斧",
+    "en": "BattleAx"
+  },
+  {
+    "id": 311,
+    "hex_id": "0x137",
+    "zh": "巨斧",
+    "en": "GreatAxe"
+  },
+  {
+    "id": 312,
+    "hex_id": "0x138",
+    "zh": "魔神斧",
+    "en": "DemonAxe"
+  },
+  {
+    "id": 313,
+    "hex_id": "0x139",
+    "zh": "獵弓",
+    "en": "Hunt Bow"
+  },
+  {
+    "id": 314,
+    "hex_id": "0x13a",
+    "zh": "木弓",
+    "en": "Wood Bow"
+  },
+  {
+    "id": 315,
+    "hex_id": "0x13b",
+    "zh": "鐵弓",
+    "en": "Iron Bow"
+  },
+  {
+    "id": 316,
+    "hex_id": "0x13c",
+    "zh": "鋼鐵弓",
+    "en": "SteelBow"
+  },
+  {
+    "id": 317,
+    "hex_id": "0x13d",
+    "zh": "十字弓",
+    "en": "Crossbow"
+  },
+  {
+    "id": 318,
+    "hex_id": "0x13e",
+    "zh": "火燄弓",
+    "en": "FlameBow"
+  },
+  {
+    "id": 319,
+    "hex_id": "0x13f",
+    "zh": "短刀",
+    "en": "Dagger"
+  },
+  {
+    "id": 320,
+    "hex_id": "0x140",
+    "zh": "小刀",
+    "en": "Knife"
+  },
+  {
+    "id": 321,
+    "hex_id": "0x141",
+    "zh": "合金匕首",
+    "en": "AlloyDrk"
+  },
+  {
+    "id": 322,
+    "hex_id": "0x142",
+    "zh": "神聖匕首",
+    "en": "HolyDirk"
+  },
+  {
+    "id": 323,
+    "hex_id": "0x143",
+    "zh": "毒蛾小刀",
+    "en": "MothKnfe"
+  },
+  {
+    "id": 324,
+    "hex_id": "0x144",
+    "zh": "惡魔小刀",
+    "en": "FiendDgr"
+  },
+  {
+    "id": 325,
+    "hex_id": "0x145",
+    "zh": "短劍",
+    "en": "Short Sw"
+  },
+  {
+    "id": 326,
+    "hex_id": "0x146",
+    "zh": "銅劍",
+    "en": "BronzeSw"
+  },
+  {
+    "id": 327,
+    "hex_id": "0x147",
+    "zh": "鋼鐵劍",
+    "en": "Steel Sw"
+  },
+  {
+    "id": 328,
+    "hex_id": "0x148",
+    "zh": "誘惑之劍",
+    "en": "AllureBl"
+  },
+  {
+    "id": 329,
+    "hex_id": "0x149",
+    "zh": "屠僵屍劍",
+    "en": "ZombieBl"
+  },
+  {
+    "id": 330,
+    "hex_id": "0x14a",
+    "zh": "屠龍劍",
+    "en": "DragonBl"
+  },
+  {
+    "id": 331,
+    "hex_id": "0x14b",
+    "zh": "蛇劍",
+    "en": "Snake Sw"
+  },
+  {
+    "id": 332,
+    "hex_id": "0x14c",
+    "zh": "隼劍",
+    "en": "FalconBl"
+  },
+  {
+    "id": 333,
+    "hex_id": "0x14d",
+    "zh": "破邪之劍",
+    "en": "EvilBane"
+  },
+  {
+    "id": 334,
+    "hex_id": "0x14e",
+    "zh": "混沌之劍",
+    "en": "Chaos Bl"
+  },
+  {
+    "id": 335,
+    "hex_id": "0x14f",
+    "zh": "雙刃劍",
+    "en": "Twin Bl"
+  },
+  {
+    "id": 336,
+    "hex_id": "0x150",
+    "zh": "藥草",
+    "en": "Herb"
+  },
+  {
+    "id": 337,
+    "hex_id": "0x151",
+    "zh": "恢復果",
+    "en": "Rest.Frt"
+  },
+  {
+    "id": 338,
+    "hex_id": "0x152",
+    "zh": "解毒草",
+    "en": "Antidote"
+  },
+  {
+    "id": 339,
+    "hex_id": "0x153",
+    "zh": "滿月草",
+    "en": "MoonHerb"
+  },
+  {
+    "id": 340,
+    "hex_id": "0x154",
+    "zh": "鬧鐘",
+    "en": "AlrmClck"
+  },
+  {
+    "id": 341,
+    "hex_id": "0x155",
+    "zh": "聖水",
+    "en": "Holy Wtr"
+  },
+  {
+    "id": 342,
+    "hex_id": "0x156",
+    "zh": "神秘守護",
+    "en": "WardChrm"
+  },
+  {
+    "id": 343,
+    "hex_id": "0x157",
+    "zh": "魯拉之葉",
+    "en": "WarpLeaf"
+  },
+  {
+    "id": 344,
+    "hex_id": "0x158",
+    "zh": "魔力之水",
+    "en": "MagicWtr"
+  },
+  {
+    "id": 345,
+    "hex_id": "0x159",
+    "zh": "腎者之果",
+    "en": "Sage Frt"
+  },
+  {
+    "id": 346,
+    "hex_id": "0x15a",
+    "zh": "力量種子",
+    "en": "PowrSeed"
+  },
+  {
+    "id": 347,
+    "hex_id": "0x15b",
+    "zh": "速度種子",
+    "en": "SpdSeed"
+  },
+  {
+    "id": 348,
+    "hex_id": "0x15c",
+    "zh": "敏捷種子",
+    "en": "AgilSeed"
+  },
+  {
+    "id": 349,
+    "hex_id": "0x15d",
+    "zh": "守護種子",
+    "en": "GrdSeed"
+  },
+  {
+    "id": 350,
+    "hex_id": "0x15e",
+    "zh": "生命樹果",
+    "en": "LifeAcrn"
+  },
+  {
+    "id": 351,
+    "hex_id": "0x15f",
+    "zh": "神秘之果",
+    "en": "Myst.Frt"
+  },
+  {
+    "id": 352,
+    "hex_id": "0x160",
+    "zh": "蠍子尾",
+    "en": "ScorpTl"
+  },
+  {
+    "id": 353,
+    "hex_id": "0x161",
+    "zh": "傀儡",
+    "en": "Puppet"
+  },
+  {
+    "id": 354,
+    "hex_id": "0x162",
+    "zh": "光子砲",
+    "en": "PhotonCn"
+  },
+  {
+    "id": 355,
+    "hex_id": "0x163",
+    "zh": "獸牙",
+    "en": "BstFang"
+  },
+  {
+    "id": 356,
+    "hex_id": "0x164",
+    "zh": "毒蠍尾",
+    "en": "VnmTail"
+  },
+  {
+    "id": 357,
+    "hex_id": "0x165",
+    "zh": "章魚觸手",
+    "en": "OctoTent"
+  },
+  {
+    "id": 358,
+    "hex_id": "0x166",
+    "zh": "毒牙",
+    "en": "PoisFang"
+  },
+  {
+    "id": 359,
+    "hex_id": "0x167",
+    "zh": "爪子",
+    "en": "Claw"
+  },
+  {
+    "id": 360,
+    "hex_id": "0x168",
+    "zh": "龍爪",
+    "en": "DrgnClaw"
+  },
+  {
+    "id": 361,
+    "hex_id": "0x169",
+    "zh": "機關砲",
+    "en": "GatlngCn"
+  },
+  {
+    "id": 362,
+    "hex_id": "0x16a",
+    "zh": "金屬爪子",
+    "en": "MetlClaw"
+  },
+  {
+    "id": 363,
+    "hex_id": "0x16b",
+    "zh": "金幣",
+    "en": "GoldCoin"
+  },
+  {
+    "id": 364,
+    "hex_id": "0x16c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 365,
+    "hex_id": "0x16d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 366,
+    "hex_id": "0x16e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 367,
+    "hex_id": "0x16f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 368,
+    "hex_id": "0x170",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 369,
+    "hex_id": "0x171",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 370,
+    "hex_id": "0x172",
+    "zh": "無",
+    "en": "None"
+  },
+  {
+    "id": 371,
+    "hex_id": "0x173",
+    "zh": "火燄一級",
+    "en": "Fire 1"
+  },
+  {
+    "id": 372,
+    "hex_id": "0x174",
+    "zh": "火燄二級",
+    "en": "Fire 2"
+  },
+  {
+    "id": 373,
+    "hex_id": "0x175",
+    "zh": "火燄三級",
+    "en": "Fire 3"
+  },
+  {
+    "id": 374,
+    "hex_id": "0x176",
+    "zh": "火燄四級",
+    "en": "Fire 4"
+  },
+  {
+    "id": 375,
+    "hex_id": "0x177",
+    "zh": "暴風一級",
+    "en": "Wind 1"
+  },
+  {
+    "id": 376,
+    "hex_id": "0x178",
+    "zh": "暴風二級",
+    "en": "Wind 2"
+  },
+  {
+    "id": 377,
+    "hex_id": "0x179",
+    "zh": "暴風三級",
+    "en": "Wind 3"
+  },
+  {
+    "id": 378,
+    "hex_id": "0x17a",
+    "zh": "暴風四級",
+    "en": "Wind 4"
+  },
+  {
+    "id": 379,
+    "hex_id": "0x17b",
+    "zh": "閃電一級",
+    "en": "Bolt 1"
+  },
+  {
+    "id": 380,
+    "hex_id": "0x17c",
+    "zh": "閃電二級",
+    "en": "Bolt 2"
+  },
+  {
+    "id": 381,
+    "hex_id": "0x17d",
+    "zh": "閃電三級",
+    "en": "Bolt 3"
+  },
+  {
+    "id": 382,
+    "hex_id": "0x17e",
+    "zh": "閃電四級",
+    "en": "Bolt 4"
+  },
+  {
+    "id": 383,
+    "hex_id": "0x17f",
+    "zh": "冰雹一級",
+    "en": "Ice 1"
+  },
+  {
+    "id": 384,
+    "hex_id": "0x180",
+    "zh": "冰雹二級",
+    "en": "Ice 2"
+  },
+  {
+    "id": 385,
+    "hex_id": "0x181",
+    "zh": "冰雹三級",
+    "en": "Ice 3"
+  },
+  {
+    "id": 386,
+    "hex_id": "0x182",
+    "zh": "冰雹一級",
+    "en": "Ice 4"
+  },
+  {
+    "id": 387,
+    "hex_id": "0x183",
+    "zh": "死之一級",
+    "en": "Death 1"
+  },
+  {
+    "id": 388,
+    "hex_id": "0x184",
+    "zh": "死之二級",
+    "en": "Death 2"
+  },
+  {
+    "id": 389,
+    "hex_id": "0x185",
+    "zh": "飛石一級",
+    "en": "Rock 1"
+  },
+  {
+    "id": 390,
+    "hex_id": "0x186",
+    "zh": "飛石二級",
+    "en": "Rock 2"
+  },
+  {
+    "id": 391,
+    "hex_id": "0x187",
+    "zh": "飛石三級",
+    "en": "Rock 3"
+  },
+  {
+    "id": 392,
+    "hex_id": "0x188",
+    "zh": "飛石四級",
+    "en": "Rock 4"
+  },
+  {
+    "id": 393,
+    "hex_id": "0x189",
+    "zh": "催眠一級",
+    "en": "Sleep 1"
+  },
+  {
+    "id": 394,
+    "hex_id": "0x18a",
+    "zh": "催眠二級",
+    "en": "Sleep 2"
+  },
+  {
+    "id": 395,
+    "hex_id": "0x18b",
+    "zh": "封印一級",
+    "en": "Silence 1"
+  },
+  {
+    "id": 396,
+    "hex_id": "0x18c",
+    "zh": "封印二級",
+    "en": "Silence 2"
+  },
+  {
+    "id": 397,
+    "hex_id": "0x18d",
+    "zh": "麻痺一級",
+    "en": "Stun 1"
+  },
+  {
+    "id": 398,
+    "hex_id": "0x18e",
+    "zh": "麻痺二級",
+    "en": "Stun 2"
+  },
+  {
+    "id": 399,
+    "hex_id": "0x18f",
+    "zh": "毒害一級",
+    "en": "Poison 1"
+  },
+  {
+    "id": 400,
+    "hex_id": "0x190",
+    "zh": "石化一級",
+    "en": "Petrif 1"
+  },
+  {
+    "id": 401,
+    "hex_id": "0x191",
+    "zh": "護壁層一級",
+    "en": "Barrier 1"
+  },
+  {
+    "id": 402,
+    "hex_id": "0x192",
+    "zh": "護壁層二級",
+    "en": "Barrier 2"
+  },
+  {
+    "id": 403,
+    "hex_id": "0x193",
+    "zh": "威力一級",
+    "en": "Power 1"
+  },
+  {
+    "id": 404,
+    "hex_id": "0x194",
+    "zh": "快速一級",
+    "en": "Speed 1"
+  },
+  {
+    "id": 405,
+    "hex_id": "0x195",
+    "zh": "快速二級",
+    "en": "Speed 2"
+  },
+  {
+    "id": 406,
+    "hex_id": "0x196",
+    "zh": "破防護一級",
+    "en": "Pierce 1"
+  },
+  {
+    "id": 407,
+    "hex_id": "0x197",
+    "zh": "破防護二級",
+    "en": "Pierce 2"
+  },
+  {
+    "id": 408,
+    "hex_id": "0x198",
+    "zh": "衰弱一級",
+    "en": "Weaken 1"
+  },
+  {
+    "id": 409,
+    "hex_id": "0x199",
+    "zh": "遲鈍一級",
+    "en": "Slow 1"
+  },
+  {
+    "id": 410,
+    "hex_id": "0x19a",
+    "zh": "遲鈍二級",
+    "en": "Slow 2"
+  },
+  {
+    "id": 411,
+    "hex_id": "0x19b",
+    "zh": "療傷一級",
+    "en": "Heal 1"
+  },
+  {
+    "id": 412,
+    "hex_id": "0x19c",
+    "zh": "療傷二級",
+    "en": "Heal 2"
+  },
+  {
+    "id": 413,
+    "hex_id": "0x19d",
+    "zh": "療傷三級",
+    "en": "Heal 3"
+  },
+  {
+    "id": 414,
+    "hex_id": "0x19e",
+    "zh": "療傷四級",
+    "en": "Heal 4"
+  },
+  {
+    "id": 415,
+    "hex_id": "0x19f",
+    "zh": "群療傷一級",
+    "en": "HealAll 1"
+  },
+  {
+    "id": 416,
+    "hex_id": "0x1a0",
+    "zh": "群療傷二級",
+    "en": "HealAll 2"
+  },
+  {
+    "id": 417,
+    "hex_id": "0x1a1",
+    "zh": "群療傷三級",
+    "en": "HealAll 3"
+  },
+  {
+    "id": 418,
+    "hex_id": "0x1a2",
+    "zh": "群療傷四級",
+    "en": "HealAll 4"
+  },
+  {
+    "id": 419,
+    "hex_id": "0x1a3",
+    "zh": "甦醒一級",
+    "en": "Revive 1"
+  },
+  {
+    "id": 420,
+    "hex_id": "0x1a4",
+    "zh": "解印一級",
+    "en": "Unseal 1"
+  },
+  {
+    "id": 421,
+    "hex_id": "0x1a5",
+    "zh": "解麻一級",
+    "en": "Unstun 1"
+  },
+  {
+    "id": 422,
+    "hex_id": "0x1a6",
+    "zh": "解毒一級",
+    "en": "Antidote 1"
+  },
+  {
+    "id": 423,
+    "hex_id": "0x1a7",
+    "zh": "破石一級",
+    "en": "Unpetrif 1"
+  },
+  {
+    "id": 424,
+    "hex_id": "0x1a8",
+    "zh": "脫離一級",
+    "en": "Escape 1"
+  },
+  {
+    "id": 425,
+    "hex_id": "0x1a9",
+    "zh": "變火龍一級",
+    "en": "Dragon 1"
+  },
+  {
+    "id": 426,
+    "hex_id": "0x1aa",
+    "zh": "神秘一級",
+    "en": "Mystic 1"
+  },
+  {
+    "id": 427,
+    "hex_id": "0x1ab",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 428,
+    "hex_id": "0x1ac",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 429,
+    "hex_id": "0x1ad",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 430,
+    "hex_id": "0x1ae",
+    "zh": "生命",
+    "en": "HP"
+  },
+  {
+    "id": 431,
+    "hex_id": "0x1af",
+    "zh": "法力",
+    "en": "MP"
+  },
+  {
+    "id": 432,
+    "hex_id": "0x1b0",
+    "zh": "攻擊力",
+    "en": "Attack"
+  },
+  {
+    "id": 433,
+    "hex_id": "0x1b1",
+    "zh": "防禦力",
+    "en": "Defense"
+  },
+  {
+    "id": 434,
+    "hex_id": "0x1b2",
+    "zh": "離開",
+    "en": "Exit"
+  },
+  {
+    "id": 435,
+    "hex_id": "0x1b3",
+    "zh": "買",
+    "en": "Buy"
+  },
+  {
+    "id": 436,
+    "hex_id": "0x1b4",
+    "zh": "賣",
+    "en": "Sell"
+  },
+  {
+    "id": 437,
+    "hex_id": "0x1b5",
+    "zh": "現金",
+    "en": "Cash"
+  },
+  {
+    "id": 438,
+    "hex_id": "0x1b6",
+    "zh": "價格",
+    "en": "Price"
+  },
+  {
+    "id": 439,
+    "hex_id": "0x1b7",
+    "zh": "折價",
+    "en": "Discount"
+  },
+  {
+    "id": 440,
+    "hex_id": "0x1b8",
+    "zh": "作用範圍",
+    "en": "Range"
+  },
+  {
+    "id": 441,
+    "hex_id": "0x1b9",
+    "zh": "效能",
+    "en": "Effect"
+  },
+  {
+    "id": 442,
+    "hex_id": "0x1ba",
+    "zh": "倉庫",
+    "en": "Vault"
+  },
+  {
+    "id": 443,
+    "hex_id": "0x1bb",
+    "zh": "倉庫查詢",
+    "en": "Check Vault"
+  },
+  {
+    "id": 444,
+    "hex_id": "0x1bc",
+    "zh": "物品",
+    "en": "Items"
+  },
+  {
+    "id": 445,
+    "hex_id": "0x1bd",
+    "zh": "是",
+    "en": "Yes"
+  },
+  {
+    "id": 446,
+    "hex_id": "0x1be",
+    "zh": "否",
+    "en": "No"
+  },
+  {
+    "id": 447,
+    "hex_id": "0x1bf",
+    "zh": "狀況",
+    "en": "Status"
+  },
+  {
+    "id": 448,
+    "hex_id": "0x1c0",
+    "zh": "使用",
+    "en": "Use"
+  },
+  {
+    "id": 449,
+    "hex_id": "0x1c1",
+    "zh": "療傷",
+    "en": "Heal"
+  },
+  {
+    "id": 450,
+    "hex_id": "0x1c2",
+    "zh": "存檔",
+    "en": "Save"
+  },
+  {
+    "id": 451,
+    "hex_id": "0x1c3",
+    "zh": "取檔",
+    "en": "Load"
+  },
+  {
+    "id": 452,
+    "hex_id": "0x1c4",
+    "zh": "刪檔",
+    "en": "Erase"
+  },
+  {
+    "id": 453,
+    "hex_id": "0x1c5",
+    "zh": "受傷",
+    "en": "Damage"
+  },
+  {
+    "id": 454,
+    "hex_id": "0x1c6",
+    "zh": "按",
+    "en": "Press"
+  },
+  {
+    "id": 455,
+    "hex_id": "0x1c7",
+    "zh": "上貢",
+    "en": "Prev"
+  },
+  {
+    "id": 456,
+    "hex_id": "0x1c8",
+    "zh": "下貢",
+    "en": "Next"
+  },
+  {
+    "id": 457,
+    "hex_id": "0x1c9",
+    "zh": "＜－",
+    "en": "<-"
+  },
+  {
+    "id": 458,
+    "hex_id": "0x1ca",
+    "zh": "－＞",
+    "en": "->"
+  },
+  {
+    "id": 459,
+    "hex_id": "0x1cb",
+    "zh": "性別",
+    "en": "Sex"
+  },
+  {
+    "id": 460,
+    "hex_id": "0x1cc",
+    "zh": "決定",
+    "en": "OK"
+  },
+  {
+    "id": 461,
+    "hex_id": "0x1cd",
+    "zh": "戰鬥動畫",
+    "en": "Anim"
+  },
+  {
+    "id": 462,
+    "hex_id": "0x1ce",
+    "zh": "對話速度",
+    "en": "Msg Speed"
+  },
+  {
+    "id": 463,
+    "hex_id": "0x1cf",
+    "zh": "音樂欣賞",
+    "en": "Music Test"
+  },
+  {
+    "id": 464,
+    "hex_id": "0x1d0",
+    "zh": "顯示",
+    "en": "On"
+  },
+  {
+    "id": 465,
+    "hex_id": "0x1d1",
+    "zh": "不顯示",
+    "en": "Off"
+  },
+  {
+    "id": 466,
+    "hex_id": "0x1d2",
+    "zh": "快速",
+    "en": "Fast"
+  },
+  {
+    "id": 467,
+    "hex_id": "0x1d3",
+    "zh": "中速",
+    "en": "Normal"
+  },
+  {
+    "id": 468,
+    "hex_id": "0x1d4",
+    "zh": "慢速",
+    "en": "Slow"
+  },
+  {
+    "id": 469,
+    "hex_id": "0x1d5",
+    "zh": "繼續",
+    "en": "Continue"
+  },
+  {
+    "id": 470,
+    "hex_id": "0x1d6",
+    "zh": "放棄",
+    "en": "Quit"
+  },
+  {
+    "id": 471,
+    "hex_id": "0x1d7",
+    "zh": "您是否繼續遊戲？",
+    "en": "Continue playing?"
+  },
+  {
+    "id": 472,
+    "hex_id": "0x1d8",
+    "zh": "結束",
+    "en": "End"
+  },
+  {
+    "id": 473,
+    "hex_id": "0x1d9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 474,
+    "hex_id": "0x1da",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 475,
+    "hex_id": "0x1db",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 476,
+    "hex_id": "0x1dc",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 477,
+    "hex_id": "0x1dd",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 478,
+    "hex_id": "0x1de",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 479,
+    "hex_id": "0x1df",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 480,
+    "hex_id": "0x1e0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 481,
+    "hex_id": "0x1e1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 482,
+    "hex_id": "0x1e2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 483,
+    "hex_id": "0x1e3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 484,
+    "hex_id": "0x1e4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 485,
+    "hex_id": "0x1e5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 486,
+    "hex_id": "0x1e6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 487,
+    "hex_id": "0x1e7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 488,
+    "hex_id": "0x1e8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 489,
+    "hex_id": "0x1e9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 490,
+    "hex_id": "0x1ea",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 491,
+    "hex_id": "0x1eb",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 492,
+    "hex_id": "0x1ec",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 493,
+    "hex_id": "0x1ed",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 494,
+    "hex_id": "0x1ee",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 495,
+    "hex_id": "0x1ef",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 496,
+    "hex_id": "0x1f0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 497,
+    "hex_id": "0x1f1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 498,
+    "hex_id": "0x1f2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 499,
+    "hex_id": "0x1f3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 500,
+    "hex_id": "0x1f4",
+    "zh": "　　在無邊無際廣大浩瀚的宇宙中，",
+    "en": "In the boundless vastness of space,"
+  },
+  {
+    "id": 501,
+    "hex_id": "0x1f5",
+    "zh": "有著正義與邪惡並存的空間，它們的",
+    "en": "light and darkness ever intertwine,"
+  },
+  {
+    "id": 502,
+    "hex_id": "0x1f6",
+    "zh": "存在是一體兩面，正如同有光明的地",
+    "en": "two halves of a single cosmos,"
+  },
+  {
+    "id": 503,
+    "hex_id": "0x1f7",
+    "zh": "方就會有黑暗。正義與邪惡雙方相互",
+    "en": "where light must cast a shadow."
+  },
+  {
+    "id": 504,
+    "hex_id": "0x1f8",
+    "zh": "排斥，兩者之間的戰爭在這宇宙中永",
+    "en": "Good and evil locked in strife,"
+  },
+  {
+    "id": 505,
+    "hex_id": "0x1f9",
+    "zh": "無休止循環下去。",
+    "en": "an endless cycle across the stars."
+  },
+  {
+    "id": 506,
+    "hex_id": "0x1fa",
+    "zh": "　　這是一段很古老的故事，述說一",
+    "en": "This is a tale of ages past,"
+  },
+  {
+    "id": 507,
+    "hex_id": "0x1fb",
+    "zh": "不知名年代中，曾經出現一個文明十",
+    "en": "in an epoch long forgotten,"
+  },
+  {
+    "id": 508,
+    "hex_id": "0x1fc",
+    "zh": "分繁榮的國家，這個國家是由魔法師",
+    "en": "when a great realm of magic arose:"
+  },
+  {
+    "id": 509,
+    "hex_id": "0x1fd",
+    "zh": "所建立的，名字叫作「聖克魯茲聯合",
+    "en": "The Grand Duchy of Santa Cruz."
+  },
+  {
+    "id": 510,
+    "hex_id": "0x1fe",
+    "zh": "大公國」。",
+    "en": "A land of wonder and prosperity."
+  },
+  {
+    "id": 511,
+    "hex_id": "0x1ff",
+    "zh": "　　就在一次魔法實驗時，不小心招",
+    "en": "Yet during a dark experiment,"
+  },
+  {
+    "id": 512,
+    "hex_id": "0x200",
+    "zh": "出邪惡魔王，使得原本平靜的世界陷",
+    "en": "an archdemon was unleashed,"
+  },
+  {
+    "id": 513,
+    "hex_id": "0x201",
+    "zh": "入空前浩劫。就在這國家要滅亡時，",
+    "en": "plunging the world into catastrophe."
+  },
+  {
+    "id": 514,
+    "hex_id": "0x202",
+    "zh": "出現一名勇士，手持勇者之劍挑戰邪",
+    "en": "As doom fell, a hero arose,"
+  },
+  {
+    "id": 515,
+    "hex_id": "0x203",
+    "zh": "惡魔王。在一連串激戰後終於擊倒魔",
+    "en": "wielding the legendary blade."
+  },
+  {
+    "id": 516,
+    "hex_id": "0x204",
+    "zh": "物，並把魔物封印在六顆光珠內，世",
+    "en": "The beast was felled and sealed"
+  },
+  {
+    "id": 517,
+    "hex_id": "0x205",
+    "zh": "界因此而恢復和平。",
+    "en": "within six radiant orbs of light."
+  },
+  {
+    "id": 518,
+    "hex_id": "0x206",
+    "zh": "　　隨著歲月的流逝直到有一天・・",
+    "en": "Peace was restored to the land..."
+  },
+  {
+    "id": 519,
+    "hex_id": "0x207",
+    "zh": "・・・・。",
+    "en": "Until now, as shadows stir again."
+  },
+  {
+    "id": 520,
+    "hex_id": "0x208",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 521,
+    "hex_id": "0x209",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 522,
+    "hex_id": "0x20a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 523,
+    "hex_id": "0x20b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 524,
+    "hex_id": "0x20c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 525,
+    "hex_id": "0x20d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 526,
+    "hex_id": "0x20e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 527,
+    "hex_id": "0x20f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 528,
+    "hex_id": "0x210",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 529,
+    "hex_id": "0x211",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 530,
+    "hex_id": "0x212",
+    "zh": "遠古的史詩",
+    "en": "Ancient Epic"
+  },
+  {
+    "id": 531,
+    "hex_id": "0x213",
+    "zh": "戰鼓響起",
+    "en": "War Drums"
+  },
+  {
+    "id": 532,
+    "hex_id": "0x214",
+    "zh": "英雄的主題曲",
+    "en": "Hero Theme"
+  },
+  {
+    "id": 533,
+    "hex_id": "0x215",
+    "zh": "莊嚴的宮殿",
+    "en": "Royal Palace"
+  },
+  {
+    "id": 534,
+    "hex_id": "0x216",
+    "zh": "吵雜的小鎮",
+    "en": "Bustling Town"
+  },
+  {
+    "id": 535,
+    "hex_id": "0x217",
+    "zh": "重工業之城",
+    "en": "Iron City"
+  },
+  {
+    "id": 536,
+    "hex_id": "0x218",
+    "zh": "寂靜的村落",
+    "en": "Quiet Village"
+  },
+  {
+    "id": 537,
+    "hex_id": "0x219",
+    "zh": "地底的死寂",
+    "en": "Nether Silence"
+  },
+  {
+    "id": 538,
+    "hex_id": "0x21a",
+    "zh": "吉普賽舞曲",
+    "en": "Gypsy Dance"
+  },
+  {
+    "id": 539,
+    "hex_id": "0x21b",
+    "zh": "熱鬧的海港",
+    "en": "Lively Port"
+  },
+  {
+    "id": 540,
+    "hex_id": "0x21c",
+    "zh": "神秘的氣息",
+    "en": "Mystic Aura"
+  },
+  {
+    "id": 541,
+    "hex_id": "0x21d",
+    "zh": "金錢的樂章",
+    "en": "Gold Rhapsody"
+  },
+  {
+    "id": 542,
+    "hex_id": "0x21e",
+    "zh": "教堂的聖歌",
+    "en": "Holy Hymn"
+  },
+  {
+    "id": 543,
+    "hex_id": "0x21f",
+    "zh": "戰士們的進行曲",
+    "en": "Warriors March"
+  },
+  {
+    "id": 544,
+    "hex_id": "0x220",
+    "zh": "危機四伏",
+    "en": "Perilous Path"
+  },
+  {
+    "id": 545,
+    "hex_id": "0x221",
+    "zh": "陷阱",
+    "en": "Trap!"
+  },
+  {
+    "id": 546,
+    "hex_id": "0x222",
+    "zh": "妖魔大軍的威脅",
+    "en": "Demon Onslaught"
+  },
+  {
+    "id": 547,
+    "hex_id": "0x223",
+    "zh": "激烈的死鬥",
+    "en": "Fierce Struggle"
+  },
+  {
+    "id": 548,
+    "hex_id": "0x224",
+    "zh": "大破壞",
+    "en": "Cataclysm"
+  },
+  {
+    "id": 549,
+    "hex_id": "0x225",
+    "zh": "神秘的敵人",
+    "en": "Unknown Foe"
+  },
+  {
+    "id": 550,
+    "hex_id": "0x226",
+    "zh": "海的變奏曲",
+    "en": "Sea Variation"
+  },
+  {
+    "id": 551,
+    "hex_id": "0x227",
+    "zh": "全力反攻",
+    "en": "Counterattack"
+  },
+  {
+    "id": 552,
+    "hex_id": "0x228",
+    "zh": "最終之戰",
+    "en": "Final Battle"
+  },
+  {
+    "id": 553,
+    "hex_id": "0x229",
+    "zh": "傳說的終章",
+    "en": "Epilog of Legend"
+  },
+  {
+    "id": 554,
+    "hex_id": "0x22a",
+    "zh": "勇士們的歡樂舞曲",
+    "en": "Warriors Dance"
+  },
+  {
+    "id": 555,
+    "hex_id": "0x22b",
+    "zh": "安息的戰士們",
+    "en": "Resting Warriors"
+  },
+  {
+    "id": 556,
+    "hex_id": "0x22c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 557,
+    "hex_id": "0x22d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 558,
+    "hex_id": "0x22e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 559,
+    "hex_id": "0x22f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 560,
+    "hex_id": "0x230",
+    "zh": "美術設計：吳建勳",
+    "en": "Art Design: Wu Chien-Hsun"
+  },
+  {
+    "id": 561,
+    "hex_id": "0x231",
+    "zh": "許家瑜",
+    "en": "Hsu Chia-Yu"
+  },
+  {
+    "id": 562,
+    "hex_id": "0x232",
+    "zh": "林家慶",
+    "en": "Lin Chia-Ching"
+  },
+  {
+    "id": 563,
+    "hex_id": "0x233",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 564,
+    "hex_id": "0x234",
+    "zh": "美術監督：林家慶",
+    "en": "Art Director: Lin Chia-Ching"
+  },
+  {
+    "id": 565,
+    "hex_id": "0x235",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 566,
+    "hex_id": "0x236",
+    "zh": "人物設定：吳建勳",
+    "en": "Character Design: Wu Chien-Hsun"
+  },
+  {
+    "id": 567,
+    "hex_id": "0x237",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 568,
+    "hex_id": "0x238",
+    "zh": "劇情編修：林家慶",
+    "en": "Scenario: Lin Chia-Ching"
+  },
+  {
+    "id": 569,
+    "hex_id": "0x239",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 570,
+    "hex_id": "0x23a",
+    "zh": "　音樂　：小葉　（GM－MIDI）",
+    "en": "Music: Xiao Ye (GM-MIDI)"
+  },
+  {
+    "id": 571,
+    "hex_id": "0x23b",
+    "zh": "吳建勳（A’CAN）",
+    "en": "Wu Chien-Hsun (A'Can)"
+  },
+  {
+    "id": 572,
+    "hex_id": "0x23c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 573,
+    "hex_id": "0x23d",
+    "zh": "音效　：吳建勳",
+    "en": "Sound Effects: Wu Chien-Hsun"
+  },
+  {
+    "id": 574,
+    "hex_id": "0x23e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 575,
+    "hex_id": "0x23f",
+    "zh": "程式設計：陳佛賜",
+    "en": "Programming: Chen Fo-Tzu"
+  },
+  {
+    "id": 576,
+    "hex_id": "0x240",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 577,
+    "hex_id": "0x241",
+    "zh": "遊戲測式：陳永琦",
+    "en": "QA Testing: Chen Yung-Chi"
+  },
+  {
+    "id": 578,
+    "hex_id": "0x242",
+    "zh": "吳建勳",
+    "en": "Wu Chien-Hsun"
+  },
+  {
+    "id": 579,
+    "hex_id": "0x243",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 580,
+    "hex_id": "0x244",
+    "zh": "　",
+    "en": ""
+  },
+  {
+    "id": 581,
+    "hex_id": "0x245",
+    "zh": "　精訊資訊有限公司",
+    "en": "Kingformation Co., Ltd."
+  },
+  {
+    "id": 582,
+    "hex_id": "0x246",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 583,
+    "hex_id": "0x247",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 584,
+    "hex_id": "0x248",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 585,
+    "hex_id": "0x249",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 586,
+    "hex_id": "0x24a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 587,
+    "hex_id": "0x24b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 588,
+    "hex_id": "0x24c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 589,
+    "hex_id": "0x24d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 590,
+    "hex_id": "0x24e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 591,
+    "hex_id": "0x24f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 592,
+    "hex_id": "0x250",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 593,
+    "hex_id": "0x251",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 594,
+    "hex_id": "0x252",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 595,
+    "hex_id": "0x253",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 596,
+    "hex_id": "0x254",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 597,
+    "hex_id": "0x255",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 598,
+    "hex_id": "0x256",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 599,
+    "hex_id": "0x257",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 600,
+    "hex_id": "0x258",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 601,
+    "hex_id": "0x259",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 602,
+    "hex_id": "0x25a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 603,
+    "hex_id": "0x25b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 604,
+    "hex_id": "0x25c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 605,
+    "hex_id": "0x25d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 606,
+    "hex_id": "0x25e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 607,
+    "hex_id": "0x25f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 608,
+    "hex_id": "0x260",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 609,
+    "hex_id": "0x261",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 610,
+    "hex_id": "0x262",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 611,
+    "hex_id": "0x263",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 612,
+    "hex_id": "0x264",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 613,
+    "hex_id": "0x265",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 614,
+    "hex_id": "0x266",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 615,
+    "hex_id": "0x267",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 616,
+    "hex_id": "0x268",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 617,
+    "hex_id": "0x269",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 618,
+    "hex_id": "0x26a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 619,
+    "hex_id": "0x26b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 620,
+    "hex_id": "0x26c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 621,
+    "hex_id": "0x26d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 622,
+    "hex_id": "0x26e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 623,
+    "hex_id": "0x26f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 624,
+    "hex_id": "0x270",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 625,
+    "hex_id": "0x271",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 626,
+    "hex_id": "0x272",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 627,
+    "hex_id": "0x273",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 628,
+    "hex_id": "0x274",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 629,
+    "hex_id": "0x275",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 630,
+    "hex_id": "0x276",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 631,
+    "hex_id": "0x277",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 632,
+    "hex_id": "0x278",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 633,
+    "hex_id": "0x279",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 634,
+    "hex_id": "0x27a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 635,
+    "hex_id": "0x27b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 636,
+    "hex_id": "0x27c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 637,
+    "hex_id": "0x27d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 638,
+    "hex_id": "0x27e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 639,
+    "hex_id": "0x27f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 640,
+    "hex_id": "0x280",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 641,
+    "hex_id": "0x281",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 642,
+    "hex_id": "0x282",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 643,
+    "hex_id": "0x283",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 644,
+    "hex_id": "0x284",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 645,
+    "hex_id": "0x285",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 646,
+    "hex_id": "0x286",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 647,
+    "hex_id": "0x287",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 648,
+    "hex_id": "0x288",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 649,
+    "hex_id": "0x289",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 650,
+    "hex_id": "0x28a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 651,
+    "hex_id": "0x28b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 652,
+    "hex_id": "0x28c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 653,
+    "hex_id": "0x28d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 654,
+    "hex_id": "0x28e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 655,
+    "hex_id": "0x28f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 656,
+    "hex_id": "0x290",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 657,
+    "hex_id": "0x291",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 658,
+    "hex_id": "0x292",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 659,
+    "hex_id": "0x293",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 660,
+    "hex_id": "0x294",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 661,
+    "hex_id": "0x295",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 662,
+    "hex_id": "0x296",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 663,
+    "hex_id": "0x297",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 664,
+    "hex_id": "0x298",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 665,
+    "hex_id": "0x299",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 666,
+    "hex_id": "0x29a",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 667,
+    "hex_id": "0x29b",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 668,
+    "hex_id": "0x29c",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 669,
+    "hex_id": "0x29d",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 670,
+    "hex_id": "0x29e",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 671,
+    "hex_id": "0x29f",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 672,
+    "hex_id": "0x2a0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 673,
+    "hex_id": "0x2a1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 674,
+    "hex_id": "0x2a2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 675,
+    "hex_id": "0x2a3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 676,
+    "hex_id": "0x2a4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 677,
+    "hex_id": "0x2a5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 678,
+    "hex_id": "0x2a6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 679,
+    "hex_id": "0x2a7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 680,
+    "hex_id": "0x2a8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 681,
+    "hex_id": "0x2a9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 682,
+    "hex_id": "0x2aa",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 683,
+    "hex_id": "0x2ab",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 684,
+    "hex_id": "0x2ac",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 685,
+    "hex_id": "0x2ad",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 686,
+    "hex_id": "0x2ae",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 687,
+    "hex_id": "0x2af",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 688,
+    "hex_id": "0x2b0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 689,
+    "hex_id": "0x2b1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 690,
+    "hex_id": "0x2b2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 691,
+    "hex_id": "0x2b3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 692,
+    "hex_id": "0x2b4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 693,
+    "hex_id": "0x2b5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 694,
+    "hex_id": "0x2b6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 695,
+    "hex_id": "0x2b7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 696,
+    "hex_id": "0x2b8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 697,
+    "hex_id": "0x2b9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 698,
+    "hex_id": "0x2ba",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 699,
+    "hex_id": "0x2bb",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 700,
+    "hex_id": "0x2bc",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 701,
+    "hex_id": "0x2bd",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 702,
+    "hex_id": "0x2be",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 703,
+    "hex_id": "0x2bf",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 704,
+    "hex_id": "0x2c0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 705,
+    "hex_id": "0x2c1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 706,
+    "hex_id": "0x2c2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 707,
+    "hex_id": "0x2c3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 708,
+    "hex_id": "0x2c4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 709,
+    "hex_id": "0x2c5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 710,
+    "hex_id": "0x2c6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 711,
+    "hex_id": "0x2c7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 712,
+    "hex_id": "0x2c8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 713,
+    "hex_id": "0x2c9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 714,
+    "hex_id": "0x2ca",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 715,
+    "hex_id": "0x2cb",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 716,
+    "hex_id": "0x2cc",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 717,
+    "hex_id": "0x2cd",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 718,
+    "hex_id": "0x2ce",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 719,
+    "hex_id": "0x2cf",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 720,
+    "hex_id": "0x2d0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 721,
+    "hex_id": "0x2d1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 722,
+    "hex_id": "0x2d2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 723,
+    "hex_id": "0x2d3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 724,
+    "hex_id": "0x2d4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 725,
+    "hex_id": "0x2d5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 726,
+    "hex_id": "0x2d6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 727,
+    "hex_id": "0x2d7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 728,
+    "hex_id": "0x2d8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 729,
+    "hex_id": "0x2d9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 730,
+    "hex_id": "0x2da",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 731,
+    "hex_id": "0x2db",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 732,
+    "hex_id": "0x2dc",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 733,
+    "hex_id": "0x2dd",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 734,
+    "hex_id": "0x2de",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 735,
+    "hex_id": "0x2df",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 736,
+    "hex_id": "0x2e0",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 737,
+    "hex_id": "0x2e1",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 738,
+    "hex_id": "0x2e2",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 739,
+    "hex_id": "0x2e3",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 740,
+    "hex_id": "0x2e4",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 741,
+    "hex_id": "0x2e5",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 742,
+    "hex_id": "0x2e6",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 743,
+    "hex_id": "0x2e7",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 744,
+    "hex_id": "0x2e8",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 745,
+    "hex_id": "0x2e9",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 746,
+    "hex_id": "0x2ea",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 747,
+    "hex_id": "0x2eb",
+    "zh": "",
+    "en": ""
+  },
+  {
+    "id": 748,
+    "hex_id": "0x2ec",
+    "zh": "",
+    "en": ""
+  }
+]

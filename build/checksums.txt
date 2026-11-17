@@ -1,0 +1,19 @@
+16007 (Taiwan).bin  (original program ROM - patch with Super-Dragon-Force_EN.ips)
+  size  2097152
+  crc32 56c1c3fb
+  sha1  249e2ad6d8d40ecd31eda5a1bd5e5d0f47174a27
+
+08002 (Taiwan).bin  (original data ROM - patch with Super-Dragon-Force_DAT_EN.ips)
+  size  1048576
+  crc32 fc79f05f
+  sha1  7ce2e23ea3fd25764935708be4d47bf1a9843938
+
+Super-Dragon-Force_EN.bin  (patched program ROM)
+  size  2097152
+  crc32 348304bd
+  sha1  b9b329650dd7de07813336a5eeaa02c8c7074393
+
+Super-Dragon-Force_DAT_EN.bin  (patched data ROM)
+  size  1048576
+  crc32 0388d07e
+  sha1  9e36534f00137310f69dbdbf4074bacedcdfce67

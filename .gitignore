@@ -1,0 +1,22 @@
+# no game or console ROMs, ever
+Super-Dragon-Force_Super-Acan_ZH-TW/
+*.bin
+*.sav
+*.state
+# Chinese script dumped from your own ROMs: python3 tools/dump_script.py / tools/forth.py
+notes/dialogue_zh.json
+notes/dialogue_zh.txt
+notes/short_strings_zh.json
+notes/short_strings_zh.txt
+notes/forth_listing.txt
+# build outputs (the IPS patches and checksums are kept)
+build/*
+!build/*.ips
+!build/checksums.txt
+tools/ocr_vision
+.DS_Store
+__pycache__/
+*.pyc
+*.png
+*.jpg
+*.wav
