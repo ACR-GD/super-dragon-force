@@ -8,7 +8,7 @@ This repository provides:
 1. **A complete English translation** of the whole game (18 dialogue blocks, 1,655 dialogue entries and 477 short strings).
 2. **IPS patches** for both ROM chips (program ROM + data ROM) of the original Taiwan cartridge, and the tools that build them.
 
-To play it you need a Super A'Can emulator: the [Super A'Can Emulator](https://github.com/ACR-GD/superacan-emulator)
+To play it you need a Super A'Can emulator: the [Super A'Can Emulator](https://github.com/second-save/superacan-emulator)
 (macOS app, Windows, Linux, and a RetroArch core for desktop and Android) or MAME.
 
 ### Screenshots
@@ -54,9 +54,9 @@ usual byte-swapped dump format; don't byte-swap them before or after patching.
 ### How to Play
 
 Always use the two patched files together. The patched program ROM with the original data ROM
-gives Chinese/garbled dialogue.
+(or with no data ROM) hangs on the first dialogue box.
 
-- **[Super A'Can Emulator](https://github.com/ACR-GD/superacan-emulator)** (macOS app, Windows /
+- **[Super A'Can Emulator](https://github.com/second-save/superacan-emulator)** (macOS app, Windows /
   Linux, RetroArch core incl. Android): keep `Super-Dragon-Force_EN.bin` and
   `Super-Dragon-Force_DAT_EN.bin` in the same folder, under those names, and open
   `Super-Dragon-Force_EN.bin`. The data ROM is picked up automatically.
@@ -69,6 +69,15 @@ gives Chinese/garbled dialogue.
   MAME will warn that the checksums don't match the original set; that's expected.
   *(Tested in MAME 0.289: intro, title menu, hero setup, naming screen, world map and first
   town. `tools/mame_test.sh` repeats this run.)*
+- **Libretro MAME, or MAME with `-cart`:** these load a single file, so join the two patched
+  files into one 3 MB file, program ROM first:
+  - macOS/Linux: `cat Super-Dragon-Force_EN.bin Super-Dragon-Force_DAT_EN.bin > Super-Dragon-Force_EN_3MB.bin`
+  - Windows: `copy /b Super-Dragon-Force_EN.bin + Super-Dragon-Force_DAT_EN.bin Super-Dragon-Force_EN_3MB.bin`
+
+  Then load `Super-Dragon-Force_EN_3MB.bin` (`mame supracan -cart Super-Dragon-Force_EN_3MB.bin`).
+  Loading `Super-Dragon-Force_EN.bin` on its own boots to the title screen, but the game hangs on
+  the first dialogue box (the name screen or Options), because all English dialogue is in the data ROM.
+  *(Tested in MAME 0.289.)*
 - **MiSTer / flash carts:** use the two patched files in place of the originals, with whatever
   file names your setup expects. *(Not yet tested.)*
 
@@ -83,7 +92,7 @@ python3 tools/build_rom.py
 
 (The Chinese script dumps are generated from your own ROMs and are not part of this repository.)
 
-This writes both patched ROMs, both IPS patches and `checksums.txt` to `build/`. The build
+This writes both patched ROMs, the combined 3 MB ROM, both IPS patches and `checksums.txt` to `build/`. The build
 fails if a patch doesn't reproduce the patched ROM exactly or if any dialogue line would
 overflow its text box. It also checks names, items, spells and menu labels against the width
 of the on-screen fields that display them (the game cuts longer strings off) and lists any

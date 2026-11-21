@@ -756,6 +756,13 @@ def main():
         f.write(mame_dat)
     print(f"  [+] Saved patched DAT ROM: {OUT_DAT_PATH} ({len(dat)} bytes)")
 
+    # Single-file loaders (Libretro MAME, `mame -cart`) need both chips in one 3 MB file;
+    # with the program ROM alone every dialogue box hangs.
+    full_path = os.path.join(BUILD_DIR, "Super-Dragon-Force_EN_3MB.bin")
+    with open(full_path, "wb") as f:
+        f.write(mame_rom + mame_dat)
+    print(f"  [+] Saved combined 3 MB ROM: {full_path}")
+
     # 8. Create IPS patch from original clean PRG ROM dump
     with open(ORIG_ROM_PATH, "rb") as f:
         orig_raw = f.read()
